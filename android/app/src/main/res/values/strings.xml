@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CredVault Pro</string>
+    <string name="title_activity_main">CredVault Pro</string>
+    <string name="package_name">com.credvault.pro</string>
+    <string name="custom_url_scheme">com.credvault.pro</string>
+</resources>
