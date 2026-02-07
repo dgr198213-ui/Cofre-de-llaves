@@ -35,8 +35,8 @@ workflows:
       # Si usas Ionic/Capacitor, descomenta la línea de 'npm run build' y 'npx cap sync'
       - name: Build Android APK
         script: |
-          # npm run build  <-- Descomenta si usas Ionic/Capacitor
-          # npx cap sync   <-- Descomenta si usas Ionic/Capacitor
+          npm run build
+          npx cap sync
           cd android
           chmod +x gradlew
           ./gradlew assembleDebug
