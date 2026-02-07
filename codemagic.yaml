@@ -24,8 +24,8 @@ workflows:
     instance_type: mac_mini_m2
     environment:
       node: 20
-      # Usamos Java 17 que es estándar para builds actuales
-      java: 17
+      # Usamos Java 21 requerido por Capacitor 7
+      java: 21
     scripts:
       - name: Install dependencies
         script: |
